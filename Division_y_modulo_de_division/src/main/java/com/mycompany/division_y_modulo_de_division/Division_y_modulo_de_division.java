@@ -17,8 +17,9 @@ public class Division_y_modulo_de_division {
           String texto_1 = JOptionPane.showInputDialog("anota numero x");
           String texto_2 = JOptionPane.showInputDialog("anota numero y");
    
-   int numero_1 = Integer.parseInt(texto_1);
-   int numero_2 = Integer.parseInt(texto_2);
+   byte numero_1 = Byte.parseByte(texto_1);
+   byte numero_2 = Byte.parseByte(texto_2);
+ 
 
    int dv = numero_1 / numero_2;
    
