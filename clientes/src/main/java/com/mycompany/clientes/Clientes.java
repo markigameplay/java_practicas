@@ -78,7 +78,12 @@ public class Clientes {
             JOptionPane.showMessageDialog(null, "Número de habitación inválido");
         }
     }
+    public static void liberacionHabitacion(boolean[] habitaciones){
 
+
+
+        
+    }
     class Cliente {
         private String nombre;
         private String apellido;
