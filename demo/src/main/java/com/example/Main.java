@@ -14,6 +14,7 @@ public class Main {
         promedio =teclado.nextDouble();
 
         condicionalFinal = promedio >= 6 ? "Aprobo" : "No aprobo";
+        
         System.out.println("la condicion final del alumno es: " condicionalFinal );
 
 
