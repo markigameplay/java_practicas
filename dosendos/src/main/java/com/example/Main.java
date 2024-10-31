@@ -9,7 +9,10 @@ public class Main {
       int inicio = 200;
    int fnal = 250;
 while (inicio < fnal) {
+    //primera forma
    inicio = inicio + 2;
+ //segunda forma
+ //inicio+=2;
    JOptionPane.showMessageDialog(null, " va en:  " + inicio);
 } 
    
